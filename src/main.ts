@@ -1,5 +1,5 @@
-import { KarinFactory, Logger } from "@karin-js/core";
-import { H3Adapter } from "@karin-js/platform-h3";
+import { KarinFactory, Logger } from "@project-karin/core";
+import { H3Adapter } from "@project-karin/platform-h3";
 
 async function bootstrap() {
   const logger = new Logger("Bootstrap");
